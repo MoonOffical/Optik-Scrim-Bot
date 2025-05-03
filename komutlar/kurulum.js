@@ -42,7 +42,7 @@ exports.run = async (client, message, args) => {
                     }
                 ]
             }).then(async (e) => {
-                await e.send({ embeds: [await Embed(client.user.username, message.guild.iconURL(), "Optik Hesaplama Kanalı", `Bu kanalı kullanmadan önce bilmen gerekenler:\n- Bu kanala attığınız slotları E-Tablo'ya işler.`, message.guild.iconURL(), `Code World Optik Bot`, message.guild.iconURL())] })
+                await e.send({ embeds: [await Embed(client.user.username, message.guild.iconURL(), "Slot Oluşturma Kanalı", `Bu kanalı kullanmadan önce bilmen gerekenler:\n- Bu kanala attığınız slotları E-Tablo'ya işler.`, message.guild.iconURL(), `Code World Optik Bot`, message.guild.iconURL())] })
                 db.set(`${message.guild.id}_slotkanalid`, e.id)
             })
 
@@ -61,7 +61,7 @@ exports.run = async (client, message, args) => {
                     }
                 ]
             }).then(async (e) => {
-                await e.send({ embeds: [await Embed(client.user.username, message.guild.iconURL(), "Optik Hesaplama Kanalı", `Bu kanalı kullanmadan önce bilmen gerekenler:\n- Bu kanalda PNG olarak attığınız resimler bota kaydedilir.`, message.guild.iconURL(), `Code World Optik Bot`, message.guild.iconURL())] })
+                await e.send({ embeds: [await Embed(client.user.username, message.guild.iconURL(), "Logo Yükleme Kanalı", `Bu kanalı kullanmadan önce bilmen gerekenler:\n- Bu kanalda PNG olarak attığınız resimler bota kaydedilir.`, message.guild.iconURL(), `Code World Optik Bot`, message.guild.iconURL())] })
                 db.set(`${message.guild.id}_logoyükle`, e.id)
             })
 
