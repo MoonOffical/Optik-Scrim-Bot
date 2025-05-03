@@ -1,0 +1,36 @@
+{
+  "name": "discordjs-14",
+  "version": "5.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Moon.Offical",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.0.0",
+    "@google/generative-ai": "^0.24.1",
+    "ascii-table": "^0.0.9",
+    "better-sqlite3": "^11.1.2",
+    "canvafy": "^7.1.0",
+    "chalk": "^5.0.1",
+    "croxydb": "^0.0.24",
+    "discord.js": "^14.0.1",
+    "express": "^4.18.1",
+    "figlet": "^1.5.2",
+    "fs": "^0.0.1-security",
+    "googleapis": "^140.0.1",
+    "http": "^0.0.1-security",
+    "humanize-duration": "^3.32.1",
+    "jimp": "^0.22.12",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "npm-searcher": "^1.0.7",
+    "quick.db": "^9.1.7"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
