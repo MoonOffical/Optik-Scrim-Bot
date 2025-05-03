@@ -8,6 +8,7 @@
 ## Ayarlar.js ayarlaması nasıl yapılır?
 - **__E TABLO SAMPLE ID__** yazan kısıma e tablonuzun urlsinin son kısmında bulunan TOKEN'i almanız gerekmektedir yani alttaki resimdeki gibi olmalıdır.
 - **Koordinat ayarı**: Kordinat ayarları için **config/koordinat.js**'de vermiş olduğumuz "sY", "sX", "rY", "rX" kısımlarını değiştirerek yapabilirsiniz.
+- **GEMİNİ APİ KEY**: Gemini api keyi almak için [Link](https://aistudio.google.com/apikey) sitesine girip kayıt olmanız gerekmektedir daha sonra api key kısmından api keyi alabilirsiniz.
 - **NOT:** Tasarımlar klasorundeki **impact.tff** Dosyasına Kesinlikle dokunmayınız
 
 ## Örnek E-Tablo
