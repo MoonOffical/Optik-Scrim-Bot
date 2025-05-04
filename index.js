@@ -178,7 +178,6 @@ client.on("messageCreate", async (message) => {
                 ]);
 
                 const text = (await result.response).text();
-                console.log("[DEBUG] AI Çıktısı:", text);
 
                 const players = [...text.matchAll(strictRegex)]
                     .map(m => {
